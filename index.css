@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color:white;
+    overflow: hidden;
+    
+}
+.home{
+    background-image: url(/Images/homebg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position-y: 21rem;
+    
+}
+.tex{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.tex i{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+    text-decoration: none;
+    list-style: none;
+    line-height: 80px;
+    letter-spacing: 10px
+}
+.tex h4{
+    padding-top: 20px;
+    font-size: 30px;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+    
+
+.logo{
+    padding-top: 30px;
+    margin-left: 50px;
+
+}
+.forms-container{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top:0;
+    left: 70%;
+    background-color: orange;    
+    background-image: url(/Images/formbg.png);
+    background-position-y:5rem ;
+    background-repeat: no-repeat;
+    display: block;
+}
+.forms-container2{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top:0;
+    left: 70%;
+    background-color: blueviolet;    
+    background-image: url(/Images/formbg.png);
+    background-position-y:5rem ;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+
+
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 2.2rem;
+    color: white;
+    margin-top: 6rem;
+    font-weight: 600;
+   
+      
+}
+
+
+.inputfield{
+    max-width: 350px;
+    width: 80%;
+    height: 55px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: grid ;
+    grid-template-columns: 95% 0; 
+    padding: 0 .4rem ;
+    background-color: white
+   
+}
+.inputfield input{
+    background: none;
+    outline: none;
+    border: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+.inputfield input::placeholder{
+    padding-left: 20px;
+    color: #aaa;
+    font-weight: 400;
+}
+.inputfield i{
+    margin-left: -30px;
+    text-align: center;
+    align-items:center ;
+    line-height: 50px;
+    cursor: pointer;
+}
+#btn{
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 800;
+    transition: .5s;
+}
+#btn:hover{
+    color: blueviolet;
+    background-color: aliceblue;
+    
+}
+#btn2{
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    font-weight: 800;
+    transition: .5s;
+}
+#btn2:hover{
+    color: orange;
+    background-color: aliceblue;
+    
+}
+.lgline{
+    margin-top: 20px;
+    color: azure;
+
+}
+.lgline a{
+    color: white;
+    font-weight: 700;
+}
