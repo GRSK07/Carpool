@@ -14,7 +14,7 @@
     
 }
 .home{
-    background-image: url(/Images/homebg.png);
+    background-image: url(Images/homebg.png);
     width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -56,7 +56,7 @@
     top:0;
     left: 70%;
     background-color: orange;    
-    background-image: url(/Images/formbg.png);
+    background-image: url(Images/formbg.png);
     background-position-y:5rem ;
     background-repeat: no-repeat;
     display: block;
@@ -68,7 +68,7 @@
     top:0;
     left: 70%;
     background-color: blueviolet;    
-    background-image: url(/Images/formbg.png);
+    background-image: url(Images/formbg.png);
     background-position-y:5rem ;
     background-repeat: no-repeat;
     display: none;
